@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <button class="chatbot-toggler">
+        <span id="send-btn" class="material-icons">mode_comment</span>
+        <span id="send-btn" class="material-icons">close</span>
+    </button>
+    <div id="chatbot" class="chatbot">
+        <header>
+            <h2>
+                <span id="send-btn" class="material-icons">smart_toy</span>
+                LSEG Chatbot
+            </h2>
+        </header>
+        <div id="chat-messages"></div>
+        <div id="chatbot-footer">
+            <button>Start</button>
+        </div>
+        <div class="chat-input">
+            <textarea disabled> Please pick an option.</textarea>
+            <span id="send-btn" class="material-icons">send</span>  
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
